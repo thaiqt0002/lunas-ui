@@ -1,0 +1,369 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@customafk/lunas-ui",
+  "private": false,
+  "version": "0.0.3-c",
+  "type": "module",
+  "homepage": "https://docs.customafk.com",
+  "repository": {
+    "url": "git+https://github.com/QuangPhamvt/lunas-ui.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/Atoms/index.js",
+  "module": "./dist/Atoms/index.js",
+  "types": "./dist/Atoms/index.d.ts",
+  "exports": {
+    "./tailwindTheme": {
+      "types": "./dist/tailwindTheme.d.ts",
+      "import": "./dist/tailwindTheme.js",
+      "require": "./dist/tailwindTheme.js"
+    },
+    "./hooks": {
+      "types": "./dist/hooks/index.d.ts",
+      "import": "./dist/hooks/index.js",
+      "require": "./dist/hooks/index.js"
+    },
+    "./Icons": {
+      "types": "./dist/Icons/index.d.ts",
+      "import": "./dist/Icons/index.js",
+      "require": "./dist/Icons/index.js"
+    },
+    "./Atoms/Accordion": {
+      "types": "./dist/Atoms/Accordion/index.d.ts",
+      "import": "./dist/Atoms/Accordion/index.js",
+      "require": "./dist/Atoms/Accordion/index.js"
+    },
+    "./Atoms/AlertDialog": {
+      "types": "./dist/Atoms/AlertDialog/index.d.ts",
+      "import": "./dist/Atoms/AlertDialog/index.js",
+      "require": "./dist/Atoms/AlertDialog/index.js"
+    },
+    "./Atoms/AspectRatio": {
+      "types": "./dist/Atoms/AspectRatio/index.d.ts",
+      "import": "./dist/Atoms/AspectRatio/index.js",
+      "require": "./dist/Atoms/AspectRatio/index.js"
+    },
+    "./Atoms/Avatar": {
+      "types": "./dist/Atoms/Avatar/index.d.ts",
+      "import": "./dist/Atoms/Avatar/index.js",
+      "require": "./dist/Atoms/Avatar/index.js"
+    },
+    "./Atoms/Badge": {
+      "types": "./dist/Atoms/Badge/index.d.ts",
+      "import": "./dist/Atoms/Badge/index.js",
+      "require": "./dist/Atoms/Badge/index.js"
+    },
+    "./Atoms/Breadcrumb": {
+      "types": "./dist/Atoms/Breadcrumb/index.d.ts",
+      "import": "./dist/Atoms/Breadcrumb/index.js",
+      "require": "./dist/Atoms/Breadcrumb/index.js"
+    },
+    "./Atoms/Button": {
+      "types": "./dist/Atoms/Button/index.d.ts",
+      "import": "./dist/Atoms/Button/index.js",
+      "require": "./dist/Atoms/Button/index.js"
+    },
+    "./Atoms/Card": {
+      "types": "./dist/Atoms/Card/index.d.ts",
+      "import": "./dist/Atoms/Card/index.js",
+      "require": "./dist/Atoms/Card/index.js"
+    },
+    "./Atoms/Carousel": {
+      "types": "./dist/Atoms/Carousel/index.d.ts",
+      "import": "./dist/Atoms/Carousel/index.js",
+      "require": "./dist/Atoms/Carousel/index.js"
+    },
+    "./Atoms/Checkbox": {
+      "types": "./dist/Atoms/Checkbox/index.d.ts",
+      "import": "./dist/Atoms/Checkbox/index.js",
+      "require": "./dist/Atoms/Checkbox/index.js"
+    },
+    "./Atoms/Command": {
+      "types": "./dist/Atoms/Command/index.d.ts",
+      "import": "./dist/Atoms/Command/index.js",
+      "require": "./dist/Atoms/Command/index.js"
+    },
+    "./Atoms/Dialog": {
+      "types": "./dist/Atoms/Dialog/index.d.ts",
+      "import": "./dist/Atoms/Dialog/index.js",
+      "require": "./dist/Atoms/Dialog/index.js"
+    },
+    "./Atoms/DropdownMenu": {
+      "types": "./dist/Atoms/DropdownMenu/index.d.ts",
+      "import": "./dist/Atoms/DropdownMenu/index.js",
+      "require": "./dist/Atoms/DropdownMenu/index.js"
+    },
+    "./Atoms/Form": {
+      "types": "./dist/Atoms/Form/index.d.ts",
+      "import": "./dist/Atoms/Form/index.js",
+      "require": "./dist/Atoms/Form/index.js"
+    },
+    "./Atoms/Input": {
+      "types": "./dist/Atoms/Input/index.d.ts",
+      "import": "./dist/Atoms/Input/index.js",
+      "require": "./dist/Atoms/Input/index.js"
+    },
+    "./Atoms/Label": {
+      "types": "./dist/Atoms/Label/index.d.ts",
+      "import": "./dist/Atoms/Label/index.js",
+      "require": "./dist/Atoms/Label/index.js"
+    },
+    "./Atoms/MenuItem": {
+      "types": "./dist/Atoms/MenuItem/index.d.ts",
+      "import": "./dist/Atoms/MenuItem/index.js",
+      "require": "./dist/Atoms/MenuItem/index.js"
+    },
+    "./Atoms/Money": {
+      "types": "./dist/Atoms/Money/index.d.ts",
+      "import": "./dist/Atoms/Money/index.js",
+      "require": "./dist/Atoms/Money/index.js"
+    },
+    "./Atoms/Navbar": {
+      "types": "./dist/Atoms/Navbar/index.d.ts",
+      "import": "./dist/Atoms/Navbar/index.js",
+      "require": "./dist/Atoms/Navbar/index.js"
+    },
+    "./Atoms/NavigationMenu": {
+      "types": "./dist/Atoms/NavigationMenu/index.d.ts",
+      "import": "./dist/Atoms/NavigationMenu/index.js",
+      "require": "./dist/Atoms/NavigationMenu/index.js"
+    },
+    "./Atoms/Popover": {
+      "types": "./dist/Atoms/Popover/index.d.ts",
+      "import": "./dist/Atoms/Popover/index.js",
+      "require": "./dist/Atoms/Popover/index.js"
+    },
+    "./Atoms/Progress": {
+      "types": "./dist/Atoms/Progress/index.d.ts",
+      "import": "./dist/Atoms/Progress/index.js",
+      "require": "./dist/Atoms/Progress/index.js"
+    },
+    "./Atoms/QuantityBtn": {
+      "types": "./dist/Atoms/QuantityBtn/index.d.ts",
+      "import": "./dist/Atoms/QuantityBtn/index.js",
+      "require": "./dist/Atoms/QuantityBtn/index.js"
+    },
+    "./Atoms/RadioGroup": {
+      "types": "./dist/Atoms/RadioGroup/index.d.ts",
+      "import": "./dist/Atoms/RadioGroup/index.js",
+      "require": "./dist/Atoms/RadioGroup/index.js"
+    },
+    "./Atoms/ScrollBar": {
+      "types": "./dist/Atoms/ScrollBar/index.d.ts",
+      "import": "./dist/Atoms/ScrollBar/index.js",
+      "require": "./dist/Atoms/ScrollBar/index.js"
+    },
+    "./Atoms/Select": {
+      "types": "./dist/Atoms/Select/index.d.ts",
+      "import": "./dist/Atoms/Select/index.js",
+      "require": "./dist/Atoms/Select/index.js"
+    },
+    "./Atoms/Separator": {
+      "types": "./dist/Atoms/Separator/index.d.ts",
+      "import": "./dist/Atoms/Separator/index.js",
+      "require": "./dist/Atoms/Separator/index.js"
+    },
+    "./Atoms/Sheet": {
+      "types": "./dist/Atoms/Sheet/index.d.ts",
+      "import": "./dist/Atoms/Sheet/index.js",
+      "require": "./dist/Atoms/Sheet/index.js"
+    },
+    "./Atoms/Skeleton": {
+      "types": "./dist/Atoms/Skeleton/index.d.ts",
+      "import": "./dist/Atoms/Skeleton/index.js",
+      "require": "./dist/Atoms/Skeleton/index.js"
+    },
+    "./Atoms/Slider": {
+      "types": "./dist/Atoms/Slider/index.d.ts",
+      "import": "./dist/Atoms/Slider/index.js",
+      "require": "./dist/Atoms/Slider/index.js"
+    },
+    "./Atoms/SmallQuantityBtn": {
+      "types": "./dist/Atoms/SmallQuantityBtn/index.d.ts",
+      "import": "./dist/Atoms/SmallQuantityBtn/index.js",
+      "require": "./dist/Atoms/SmallQuantityBtn/index.js"
+    },
+    "./Atoms/Switch": {
+      "types": "./dist/Atoms/Switch/index.d.ts",
+      "import": "./dist/Atoms/Switch/index.js",
+      "require": "./dist/Atoms/Switch/index.js"
+    },
+    "./Atoms/Tabs": {
+      "types": "./dist/Atoms/Tabs/index.d.ts",
+      "import": "./dist/Atoms/Tabs/index.js",
+      "require": "./dist/Atoms/Tabs/index.js"
+    },
+    "./Atoms/Textarea": {
+      "types": "./dist/Atoms/Textarea/index.d.ts",
+      "import": "./dist/Atoms/Textarea/index.js",
+      "require": "./dist/Atoms/Textarea/index.js"
+    },
+    "./Atoms/Tooltip": {
+      "types": "./dist/Atoms/Tooltip/index.d.ts",
+      "import": "./dist/Atoms/Tooltip/index.js",
+      "require": "./dist/Atoms/Tooltip/index.js"
+    },
+    "./Atoms/UserAvatar": {
+      "types": "./dist/Atoms/UserAvatar/index.d.ts",
+      "import": "./dist/Atoms/UserAvatar/index.js",
+      "require": "./dist/Atoms/UserAvatar/index.js"
+    },
+    "./Atoms/XButton": {
+      "types": "./dist/Atoms/XButton/index.d.ts",
+      "import": "./dist/Atoms/XButton/index.js",
+      "require": "./dist/Atoms/XButton/index.js"
+    },
+    "./Molecules/AuthenForm": {
+      "types": "./dist/AuthenForm/index.d.ts",
+      "import": "./dist/AuthenForm/index.js",
+      "require": "./dist/AuthenForm/index.js"
+    },
+    "./Molecules/Search": {
+      "types": "./dist/Search/index.d.ts",
+      "import": "./dist/Search/index.js",
+      "require": "./dist/Search/index.js"
+    },
+    "./Molecules/UserDropdown": {
+      "types": "./dist/UserDropdown/index.d.ts",
+      "import": "./dist/UserDropdown/index.js",
+      "require": "./dist/UserDropdown/index.js"
+    },
+    "./Organisms/Footer": {
+      "types": "./dist/Organisms/Footer/index.d.ts",
+      "import": "./dist/Organisms/Footer/index.js",
+      "require": "./dist/Organisms/Footer/index.js"
+    },
+    "./Organisms/Header": {
+      "types": "./dist/Organisms/Header/index.d.ts",
+      "import": "./dist/Organisms/Header/index.js",
+      "require": "./dist/Organisms/Header/index.js"
+    },
+    "./Layout/Flex": {
+      "types": "./dist/Layout/Flex/index.d.ts",
+      "import": "./dist/Layout/Flex/index.js",
+      "require": "./dist/Layout/Flex/index.js"
+    },
+    "./Authentication/SignIn": {
+      "types": "./dist/Authentication/SignIn/index.d.ts",
+      "import": "./dist/Authentication/SignIn/index.js",
+      "require": "./dist/Authentication/SignIn/index.js"
+    },
+    "./Authentication/SignUp": {
+      "types": "./dist/Authentication/SignUp/index.d.ts",
+      "import": "./dist/Authentication/SignUp/index.js",
+      "require": "./dist/Authentication/SignUp/index.js"
+    },
+    "./Authentication/ThankYou": {
+      "types": "./dist/Authentication/ThankYou/index.d.ts",
+      "import": "./dist/Authentication/ThankYou/index.js",
+      "require": "./dist/Authentication/ThankYou/index.js"
+    },
+    "./Ecommerce/Categories": {
+      "types": "./dist/Ecommerce/Categories/index.d.ts",
+      "import": "./dist/Ecommerce/Categories/index.js",
+      "require": "./dist/Ecommerce/Categories/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint ./packages --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint ./packages --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "fmt": "prettier --check \"./packages/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "fmt:fix": "prettier --write \"./packages/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "sb": "storybook dev -p 6006",
+    "build-sb": "storybook build"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@shopify/eslint-plugin": "^46.0.0",
+    "@storybook/addon-essentials": "^8.4.5",
+    "@storybook/addon-interactions": "^8.4.5",
+    "@storybook/addon-links": "^8.4.5",
+    "@storybook/addon-onboarding": "^8.4.5",
+    "@storybook/addon-themes": "^8.4.5",
+    "@storybook/blocks": "^8.4.5",
+    "@storybook/react": "^8.4.5",
+    "@storybook/react-vite": "^8.4.5",
+    "@storybook/test": "^8.4.5",
+    "@types/bun": "latest",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-form-fields": "^1.2.22",
+    "eslint-plugin-react-hook-form": "^0.3.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-perf": "^3.3.3",
+    "eslint-plugin-react-prefer-function-component": "^3.3.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-sonar": "^0.13.2",
+    "eslint-plugin-ssr-friendly": "^1.3.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "eslint-plugin-unicorn": "^55.0.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "eslint-plugin-validate-jsx-nesting": "^0.1.1",
+    "postcss": "^8.4.49",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "storybook": "^8.4.5",
+    "tailwindcss": "^3.4.15",
+    "tailwindcss-animate": "^1.0.7",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^4.3.2"
+  },
+  "description": "This is a e-commerce UI library for CustomAFK",
+  "bugs": {
+    "url": "https://github.com/QuangPhamvt/e-commerce-ui/issues"
+  },
+  "author": "CustomAFK",
+  "license": "ISC",
+  "dependencies": {
+    "@hookform/error-message": "^2.0.1",
+    "@hookform/resolvers": "^3.9.1",
+    "@radix-ui/react-accordion": "^1.2.1",
+    "@radix-ui/react-alert-dialog": "^1.1.2",
+    "@radix-ui/react-aspect-ratio": "^1.1.0",
+    "@radix-ui/react-avatar": "^1.1.1",
+    "@radix-ui/react-checkbox": "^1.1.2",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-dropdown-menu": "^2.1.2",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-navigation-menu": "^1.2.1",
+    "@radix-ui/react-popover": "^1.1.2",
+    "@radix-ui/react-progress": "^1.1.0",
+    "@radix-ui/react-radio-group": "^1.2.1",
+    "@radix-ui/react-scroll-area": "^1.2.1",
+    "@radix-ui/react-select": "^2.1.2",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-slider": "^1.2.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-switch": "^1.1.1",
+    "@radix-ui/react-tabs": "^1.1.1",
+    "@radix-ui/react-tooltip": "^1.1.4",
+    "@radix-ui/react-visually-hidden": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cmdk": "^1.0.4",
+    "embla-carousel-react": "^8.5.1",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.424.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.2",
+    "react-spinners": "^0.14.1",
+    "tailwind-merge": "^2.5.5",
+    "zod": "^3.23.8"
+  }
+}
